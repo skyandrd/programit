@@ -85,8 +85,9 @@ body:not(:hover) span{transition: font-size 1s ease;font-size: 100%;}
 <div>
 <a id="email"></a>
 <script type="text/javascript">
-var f='s-k-y-a-n-d-r-d-@-g-m-a-i-l-.-c-o-m',e=f.replace(/-/g,'');
-document.getElementById('email').innerText=e;
+var f='s-k-y-a-n-d-r-d-@-g-m-a-i-l-.-c-o-m',e=f.replace(/-/g,''), h=document.getElementById('email');
+h.innerText=e;
+h.setAttribute('href', 'mailto:'+e);
 </script>
 </div>
 </body>
